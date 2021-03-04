@@ -15,18 +15,35 @@
 <body>
     
     <nav class="navbar navbar-dark bg-dark fixed-top">
-        <button type="button" class="navbar-toggler">
+        <button type="button" class="navbar-toggler d-lg-none">
             <img src="assets/img/hamburger.gif" alt="Menu">
         </button>
 
         <a href="#" class="navbar-brand flex-grow-1">
-            <img src="assets/img/logo.png" alt="NetFlix" height="30" class="my-1 mx-2">
+            <img src="assets/img/logo.png" alt="NetFlix" class="my-1 mx-2">
         </a>
+
+        <ul class="nav text-whidt d-none d-lg-flex">
+            <li class="nav-item">
+                <a href="" class="nav-link text-reset active">Navegar</a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link text-white">Infantil</a>
+            </li>
+        </ul>
+
         <form class="form-inline">
             <input type="search" class="form-control" placeholder="Busca">
         </form>
 
-        <ul class="list-unstyled font-weight-bold">
+
+            <div class="media text-white p-2 d-none d-lg-flex">
+                <img class="rounded-pill"src="assets/img/img.gif" alt="Avatar">
+                <div class="media-body"><p class="h6 m-0">DEYVD A CONNOR'S</p>
+                </div>
+            </div>    
+
+        <ul class="list-unstyled font-weight-bold sidebar">
             <li class="media media-avatar">
                 <img class="rounded-pill"src="assets/img/img.gif" alt="Avatar">
                 <div class="media-body"><p class="h6 m-0">DEYVD A CONNOR'S</p>
@@ -45,7 +62,63 @@
         </ul>
     </nav>
    
-    <img src="assets/img/vingadores-era-de-ultron.jpg" alt="">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 full-banner text-white">
+                <div class="p-4 d-flex justify-content-start align-items-center h-100">
+                    <div>
+                        <h1 class="h3">Vingadores: Ultimato</h1>
+                        <small class="d-flex my-2">
+                            <span >2019</span>
+                            <span class="mx-3">12</span>
+                            <span >182 min</span>
+                        </small>
+                        <p class="d-none d-lg-block">Após Thanos eliminar metade das criaturas vivas em Vingadores: Guerra Infinita, os heróis precisam lidar com a dor da perda de amigos e seus entes queridos. Com Tony Stark (Robert Downey Jr.) vagando perdido no espaço sem água nem comida, o Capitão América/Steve Rogers (Chris Evans) e a Viúva Negra/Natasha Romanov (Scarlett Johansson) precisam liderar a resistência contra o titã louco.</p>
+                        <a href="#" class="btn btn-primary text-uppercase fw-bold">Assistir</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row no-gutters">
+            <div class="col-12">
+                
+                <div class="p-3 list-titles">
+                    <h2 class="h4">Adicionados Recentemente</h2>
+                    <div class="d-flex flex-nowrap overflow-hidden">
+                        <a href="" class="px-1 my-3"><img src="assets/img/capitao-america-o-primeiro-vingador.jpg" alt="Capitão América" class="w-100"></a>
+                        <a href="" class="px-1 my-3"><img src="assets/img/eu-sou-a-lenda.jpg" alt="Eu Sou a Lenda" class="w-100"></a>
+                        <a href="" class="px-1 my-3"><img src="assets/img/o-menino-que-descobriu-o-vento.jpg" alt="O Menino Que Descobriu O Vento" class="w-100"></a>
+                        <a href="" class="px-1 my-3"><img src="assets/img/homem-de-ferro.jpg" alt="Homem de Ferro" class="w-100"></a>
+                    </div>
+                </div>
+                <div class="p-3 list-titles">
+                    <h2 class="h4">Continuar Assisindo como <span class="text-uppercase">Deyvd A Connor's</span></h2>
+                    <div class="d-flex flex-nowrap overflow-hidden">
+                        <a href="" class="px-1 my-3"><img src="assets/img/guardios-da-galaxia.jpg" alt="Capitão América" class="w-100"></a>
+                        <a href="" class="px-1 my-3"><img src="assets/img/homem-de-ferro-2.jpg" alt="Eu Sou a Lenda" class="w-100"></a>
+                        <a href="" class="px-1 my-3"><img src="assets/img/nosso-planeta.jpg" alt="O Menino Que Descobriu O Vento" class="w-100"></a>
+                        <a href="" class="px-1 my-3"><img src="assets/img/the-rain.jpg" alt="Homem de Ferro" class="w-100"></a>
+                    </div>
+                </div>
+                <div class="p-3 list-titles">
+                    <h2 class="h4">Em Alta</h2>
+                    <div class="d-flex flex-nowrap overflow-hidden">
+                        <a href="" class="px-1 my-3"><img src="assets/img/thor-o-mundo-sombrio.jpg" alt="Capitão América" class="w-100"></a>
+                        <a href="" class="px-1 my-3"><img src="assets/img/vingadores-era-de-ultron.jpg" alt="Eu Sou a Lenda" class="w-100"></a>
+                        <a href="" class="px-1 my-3"><img src="assets/img/better-call-saul.jpg" alt="O Menino Que Descobriu O Vento" class="w-100"></a>
+                        <a href="" class="px-1 my-3"><img src="assets/img/greys-anatomy.jpg" alt="Homem de Ferro" class="w-100"></a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <footer class="row no-gutters p-4">
+            <a href="" class="col-12 col-md-3 text-reset">Termos de Uso</a>
+            <a href="" class="col-12 col-md-3 text-reset">Declaração de Privacidade</a>
+            <a href="" class="col-12 col-md-3 text-reset">Preferência de Cookies</a>
+            <a href="" class="col-12 col-md-3 text-reset">Centro de Ajuda</a>
+        </footer>
 
 
  <!-- ==SCRIPT ZONE==SCRIPT ZONE==SCRIPT ZONE==SCRIPT ZONE==SCRIPT ZONE==SCRIPT ZONE -->
